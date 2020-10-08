@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lan=en>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>The Snake Game</title>
+  <style type="text/css">
+<!--
+.fundo{
+background-color:#0f0e17;
+}
+.fundo1{
+background-color:#0000FF;
+}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+
+function trocar(){
+var obj=document.getElementById('body');
+if(obj.className==='fundo1'){
+	obj.className='fundo';
+}else{
+	obj.className='fundo1';
+ }
+}
+
+</script>
+</head>
+
+<body id="body">
+  <canvas id="snake" class="board" width="512" height="512"></canvas>
+
+  <div class="container" id="co">
+      <p id="pontuacao" class="btn-hover">Pontuação: </p>
+
+    
+
+  </div>
+
+  <button class="btn-hover" onClick="window.location.reload()" id="restart" hidden>Restart</button>
+
+
+
+
+
+
+</body>
+<img src="sol.gif" id="sol">
+</html>

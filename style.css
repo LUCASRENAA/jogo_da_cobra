@@ -1,0 +1,64 @@
+body {
+  width: 95vw;
+  height: 95vh;
+  overflow: hidden;
+  background: url(tela.gif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  border: 2px solid white;
+  box-shadow: 0 0 7px white;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+
+#restart
+{
+
+position: absolute;
+justify-content: center;
+  align-items: center;
+
+
+
+}
+
+#pontuacao
+{
+
+margin-left: 40%;
+justify-content: center;
+
+
+  align-items: center;
+
+
+
+}
+#sol
+{
+position: absolute;
+margin-left: -40%;
+margin-top: -15%;
+  width: 1%;
+  height: 1%;
+}
+
+
+
+
+ @media (max-width: 672px) {
+ #sol
+ {
+  width: 0%;
+  height: 0%;
+ }
+ }
+.btn-hover{min-height: 45px; width: 200px; border-radius: 30px; border: 0px none white; background-color: rgb(149, 165, 166); font-family: "Gamja Flower", cursive; color: rgb(255, 255, 255); font-size: 24px;}.btn-hover:hover{}
